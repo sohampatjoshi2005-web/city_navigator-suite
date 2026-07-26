@@ -1,9 +1,0 @@
-streamlit>=1.38
-requests
-polyline
-pydeck
-python-dotenv
-Pillow
-ultralytics
-opencv-python-headless
-scikit-learn
