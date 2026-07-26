@@ -1,5 +1,0 @@
-streamlit
-pydeck
-requests
-polyline
-python-dotenv
