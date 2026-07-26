@@ -1,0 +1,8 @@
+streamlit
+requests
+polyline
+pydeck
+Pillow
+python-dotenv
+ultralytics
+opencv-python-headless
