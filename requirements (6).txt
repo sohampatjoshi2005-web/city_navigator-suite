@@ -1,0 +1,14 @@
+streamlit>=1.36
+requests>=2.31
+pydeck>=0.9
+Pillow>=10.0
+python-dotenv>=1.0
+polyline>=2.0
+
+# --- Optional, only needed for Tab 6 (ADAS Collision Watch / video analysis) ---
+# These are heavy (large model download + native builds) and can slow down or
+# fail on Streamlit Community Cloud's free tier. The app already degrades
+# gracefully (shows a friendly error) if these aren't installed, so leave them
+# commented out unless you specifically want that tab working.
+# ultralytics
+# opencv-python-headless
