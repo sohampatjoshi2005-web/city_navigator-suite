@@ -1,0 +1,16 @@
+streamlit>=1.32
+requests>=2.31
+python-dotenv>=1.0
+Pillow>=10.0
+
+# Encodes/decodes Google-style route polylines. Optional -- app.py has a
+# pure-Python fallback if this isn't installed, but installing it is faster.
+polyline>=2.0
+
+# Used by Tab 6 (ADAS Collision Watch) for still-frame/video object detection
+ultralytics>=8.2
+opencv-python-headless>=4.9
+
+# NOTE: pydeck is intentionally NOT listed here. All maps now render as real
+# OpenStreetMap tiles via Leaflet.js, loaded client-side from unpkg.com --
+# no Python mapping package is needed anymore.
