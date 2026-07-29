@@ -1,0 +1,13 @@
+# Core -- app will not start without these
+streamlit>=1.38          # needs >=1.38 for st.audio_input (voice assistant)
+requests
+pydeck
+Pillow
+python-dotenv
+polyline
+
+# Optional -- ADAS Collision Watch tab (Tab 6) only.
+# The code already wraps these imports in try/except and degrades gracefully
+# (shows an error message instead of crashing) if either is missing.
+ultralytics               # local YOLOv8n object detection (~6MB weights, downloaded on first run)
+opencv-python              # video frame extraction for the "Video Analysis" sub-tab
