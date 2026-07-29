@@ -1,0 +1,9 @@
+streamlit>=1.38
+requests
+python-dotenv
+Pillow
+
+# Optional but recommended -- app degrades gracefully without these:
+polyline          # falls back to a pure-Python encoder/decoder if missing
+ultralytics       # powers Tab 6 (ADAS Collision Watch) local YOLOv8n detection
+opencv-python     # powers Tab 6 video-frame extraction
