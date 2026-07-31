@@ -1,0 +1,13 @@
+# Core app
+streamlit>=1.32
+requests>=2.31
+python-dotenv>=1.0
+Pillow>=10.0
+polyline>=2.0
+
+# Tab 6 -- ADAS Collision Watch (Video + VLM). Both are wrapped in
+# try/except ImportError in the code, so the app still runs without them --
+# but the video-frame extraction and YOLO object-detection features need
+# these installed to actually work rather than silently no-op.
+opencv-python-headless>=4.9
+ultralytics>=8.2
